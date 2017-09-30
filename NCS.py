@@ -6,6 +6,11 @@ def NNCS(url, sort = 'favorite', pageSize = 100, page = 1, scrapeAll = True, dty
         scrapeAll = True, False
         dtype = "list", "json"
     ''' 
+    
+    import requests as rq
+    import time
+    import json
+    
     params = []
     for i in url.split('?')[1].split('&'):
         params.append(i.split('='))
