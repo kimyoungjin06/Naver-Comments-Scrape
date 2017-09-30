@@ -26,3 +26,15 @@ pageSize can be from 1 to 100, and default is 100.
 scrapeAll is True or False. 
 
 dtype means return type. default is just list of comments. But if you want to all information of comments, select "json"
+
+## Example
+
+```python
+# First copy NCS.py
+
+import NCS
+
+url = 'http://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=028&aid=0002381762'
+NCS.NNCS(url)   # Use default setting
+NCS.NNCS(url, dtype = 'json')   # return json type
+```
