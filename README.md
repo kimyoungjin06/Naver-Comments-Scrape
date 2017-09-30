@@ -3,6 +3,9 @@ Naver Comments Scrape for News, Weptoon, and etc.
 
 V 0.1.0 add NNCS (Naver News Comments Scrape)
 
+## Requirements
+requests, time, and json packages
+
 # Naver News Comments Scrape
 NNCS is Naver News Scraping Function
 
